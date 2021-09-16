@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2b535190-2912-4e8d-8626-3e3dc684d234</PackageIdentityName>
     <PackageIdentityPublisher>CN=timzl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>061A02F283123B0EC9264AA664FF605B254DDCA312463E83667CB492BF656ABA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2b535190-2912-4e8d-8626-3e3dc684d234_1.0.0.0_x64__zetq8gxkcnj04</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2b535190-2912-4e8d-8626-3e3dc684d234_zetq8gxkcnj04!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-09-16T20:49:14.115</Modified>
+      <Modified>2021-09-16T21:37:29.397</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.exe">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.exe">
       <PackagePath>entrypoint\SortsVisualisation.exe</PackagePath>
-      <Modified>2021-09-16T20:49:13.576</Modified>
+      <Modified>2021-09-16T21:37:28.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -54,67 +54,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T11:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-09-15T16:29:41.624</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2021-09-15T16:22:00.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-09-15T16:22:00.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.xr.xml">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.xr.xml">
       <PackagePath>SortsVisualisation.xr.xml</PackagePath>
       <Modified>2021-09-16T20:36:32.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-09-16T20:47:27.389</Modified>
+      <Modified>2021-09-16T21:37:28.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2021-09-16T20:47:27.389</Modified>
+      <Modified>2021-09-16T21:37:28.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T09:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2021-09-16T20:36:32.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Core\SortsVisualisation.exe">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Core\SortsVisualisation.exe">
       <PackagePath>SortsVisualisation.exe</PackagePath>
-      <Modified>2021-09-16T20:49:14.113</Modified>
+      <Modified>2021-09-16T21:37:29.389</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

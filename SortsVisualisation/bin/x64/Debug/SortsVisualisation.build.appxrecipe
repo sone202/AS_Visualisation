@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2b535190-2912-4e8d-8626-3e3dc684d234</PackageIdentityName>
     <PackageIdentityPublisher>CN=timzl</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.exe">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.exe">
       <PackagePath>entrypoint\SortsVisualisation.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
@@ -40,52 +40,52 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.xr.xml">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\SortsVisualisation.xr.xml">
       <PackagePath>SortsVisualisation.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\bin\x64\Debug\Core\SortsVisualisation.exe">
+    <AppxPackagedFile Include="C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\bin\x64\Debug\Core\SortsVisualisation.exe">
       <PackagePath>SortsVisualisation.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

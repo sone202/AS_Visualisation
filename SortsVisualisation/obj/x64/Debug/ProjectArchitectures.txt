@@ -1,1 +1,1 @@
-C:\Users\timzl\source\repos\SortsVisualisation\SortsVisualisation\SortsVisualisation.csproj;x64
+C:\Users\timzl\source\repos\SortsVisualisation\AS_Visualisation\SortsVisualisation\SortsVisualisation.csproj;x64

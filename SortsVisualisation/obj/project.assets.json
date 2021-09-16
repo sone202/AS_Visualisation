@@ -8330,11 +8330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\SortsVisualisation\\SortsVisualisation.csproj",
+      "projectUniqueName": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\AS_Visualisation\\SortsVisualisation\\SortsVisualisation.csproj",
       "projectName": "SortsVisualisation",
-      "projectPath": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\SortsVisualisation\\SortsVisualisation.csproj",
+      "projectPath": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\AS_Visualisation\\SortsVisualisation\\SortsVisualisation.csproj",
       "packagesPath": "C:\\Users\\timzl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\SortsVisualisation\\obj\\",
+      "outputPath": "C:\\Users\\timzl\\source\\repos\\SortsVisualisation\\AS_Visualisation\\SortsVisualisation\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
