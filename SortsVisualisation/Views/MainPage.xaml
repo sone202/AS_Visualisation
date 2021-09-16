@@ -1,0 +1,86 @@
+﻿<Page x:Class="SortsVisualisation.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:SortsVisualisation"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+      xmlns:converter="using:SortsVisualisation.Views.Converters"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Color x:Key="LightCoralColor">#EF767A</Color>
+        <Color x:Key="QueenBlueColor">#456990</Color>
+        <Color x:Key="KeppelColor">#49BEAA</Color>
+        <Color x:Key="MediumAquamarineColor">#49DCB1</Color>
+        <Color x:Key="SunrayColor">#EEB868</Color>
+
+        <converter:BoolInvertConverter x:Key="BoolInvertConverter" />
+    </Page.Resources>
+    <SplitView  DisplayMode="Inline"
+                IsPaneOpen="True"
+                PaneBackground="{StaticResource QueenBlueColor}">
+        <SplitView.Pane>
+            <StackPanel MinWidth="400">
+                <!--logs-->
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!--Grid 0-->
+                <StackPanel HorizontalAlignment="Left"
+                            Orientation="Horizontal">
+                    <ComboBox ItemsSource="{Binding SortTypes}"
+                              SelectedItem="{Binding Path = SelectedSortType, Mode=TwoWay}"
+                              Margin="0,0,5,0"
+                              MinWidth="200" />
+                    <TextBox MinWidth="100"
+                             Text="{Binding N, Mode=TwoWay}"
+                             TextChanged="ArraySizeChanged" />
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+
+                    <Button x:Name="StartSortButton"
+                            Background="{StaticResource QueenBlueColor}"
+                            Command="{Binding SortCommand}"
+                            IsEnabled="{Binding IsSorting, Converter={StaticResource BoolInvertConverter}}"
+                            Margin="0,0,5,0"
+                            Width="100">Start</Button>
+                    <Button x:Name="StopButton"
+                            Background="{StaticResource LightCoralColor}"
+                            Command="{Binding StopSortingCommand}"
+                            IsEnabled="{Binding IsSorting}"
+                            Foreground="Black"
+                            Margin="0,0,5,0"
+                            Width="100">Stop</Button>
+                    <Button x:Name="MixArrayButton"
+                            Background="{StaticResource SunrayColor}"
+                            Command="{Binding ShuffleCommand}"
+                            IsEnabled="{Binding IsSorting, Converter={StaticResource BoolInvertConverter}}"
+                            Foreground="Black"
+                            Width="100">Shuffle</Button>
+                </StackPanel>
+
+                <canvas:CanvasAnimatedControl  x:Name="ChartCanvas"
+                                               Grid.Row="2"
+                                               Draw="ChartCanvas_Draw"
+                                               RenderTransformOrigin="0.5,0.5">
+                    <canvas:CanvasAnimatedControl.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleY="-1" />
+                        </TransformGroup>
+                    </canvas:CanvasAnimatedControl.RenderTransform>
+                </canvas:CanvasAnimatedControl>
+            </Grid>
+        </SplitView.Content>
+    </SplitView>
+</Page>
