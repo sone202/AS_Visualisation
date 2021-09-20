@@ -1,6 +1,6 @@
 # AS_Visualisation
 
-Simple program that visualize the process of different types of array sorting algorythms.
+Simple program that visualize the process of different types of array sorting algorithms.
 
 Currently available:
 1. Bubble sort
